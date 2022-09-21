@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 5000,
+          "bottomRow": 630,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -109,7 +109,7 @@
               "animateLoading": true,
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 10.515625,
-              "leftColumn": 18,
+              "leftColumn": 3,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -173,7 +173,7 @@
               },
               "key": "pm1vpd0zy7",
               "isDeprecated": false,
-              "rightColumn": 42,
+              "rightColumn": 52,
               "widgetId": "6wzd4ttjq6",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
