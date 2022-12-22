@@ -38,8 +38,8 @@
   },
   "properties": {
     "colors": {
-      "primaryColor": "#b91c1c",
-      "backgroundColor": "#fff1f2"
+      "primaryColor": "#a1a1aa",
+      "backgroundColor": "#fee2e2"
     },
     "borderRadius": {
       "appBorderRadius": "1.5rem"
