@@ -16,16 +16,14 @@
     "pageId": "Page1",
     "collectionId": "Page1_JSObject1",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  return \"hi\";\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -34,9 +32,6 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "() => {\n  return \"hi\";\n}"
-    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
@@ -44,5 +39,5 @@
   },
   "id": "Page1_JSObject1.myFun1",
   "deleted": false,
-  "gitSyncId": "63c11419f60954414771cce8_63c11467f60954414771cced"
+  "gitSyncId": "63a3dcd3342bf716e62d6ada_6488592e44e37344e3c9857f"
 }
