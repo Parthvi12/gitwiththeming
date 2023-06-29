@@ -3,6 +3,10 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Public.demo_delivery_agents",
+      "isDefault": false
     }
   ],
   "viewMode": false,

@@ -1,0 +1,12 @@
+UPDATE public."demo_delivery_agents" SET
+		"id" = '{{update_form.fieldState.id.isVisible ? update_form.formData.id : update_form.sourceData.id}}',
+		"name" = '{{update_form.fieldState.name.isVisible ? update_form.formData.name : update_form.sourceData.name}}',
+    "email" = '{{update_form.fieldState.email.isVisible ? update_form.formData.email : update_form.sourceData.email}}',
+		"dob" = '{{update_form.fieldState.dob.isVisible ? update_form.formData.dob : update_form.sourceData.dob}}',
+		"registered" = '{{update_form.fieldState.registered.isVisible ? update_form.formData.registered : update_form.sourceData.registered}}',
+		"phoneno" = '{{update_form.fieldState.phoneno.isVisible ? update_form.formData.phoneno : update_form.sourceData.phoneno}}',
+		"picture" = '{{update_form.fieldState.picture.isVisible ? update_form.formData.picture : update_form.sourceData.picture}}',
+		"state" = '{{update_form.fieldState.state.isVisible ? update_form.formData.state : update_form.sourceData.state}}',
+		"address" = '{{update_form.fieldState.address.isVisible ? update_form.formData.address : update_form.sourceData.address}}',
+		"city" = '{{update_form.fieldState.city.isVisible ? update_form.formData.city : update_form.sourceData.city}}'
+WHERE "id" = {{data_table.selectedRow.id}};

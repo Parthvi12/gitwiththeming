@@ -1,0 +1,24 @@
+INSERT INTO public."demo_delivery_agents" (
+	"id",
+	"id",
+	"name",
+	"email",
+	"dob",
+	"registered",
+	"phoneno",
+	"picture",
+	"state",
+	"address",
+	"city")
+VALUES (
+	'{{insert_form.formData.id}}',
+	'{{insert_form.formData.id}}',
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.email}}',
+	'{{insert_form.formData.dob}}',
+	'{{insert_form.formData.registered}}',
+	'{{insert_form.formData.phoneno}}',
+	'{{insert_form.formData.picture}}',
+	'{{insert_form.formData.state}}',
+	'{{insert_form.formData.address}}',
+	'{{insert_form.formData.city}}');

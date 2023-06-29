@@ -1,0 +1,2 @@
+DELETE FROM public."demo_delivery_agents"
+  WHERE "id" = {{data_table.triggeredRow.id}};
